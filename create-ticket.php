@@ -81,7 +81,7 @@ echo "<script>alert('Ticket Genrated');</script>";
     <div class="clearfix"></div>
     <div class="content">  
 		<div class="page-title">	
-			<h3>Create ticket</h3>
+			<h3>Request Update</h3>
      
 	
              <div class="row">
@@ -109,10 +109,10 @@ echo "<script>alert('Ticket Genrated');</script>";
                                         <div class="col-md-6 col-xs-12">                                                                                            
                                             <select  name="tasktype" class="form-control select" required>
                                                 <option> Select your Task Type</option>
-                                                <option value="billing">Billing</option>
-                                                <option value="ot1">Option 1</option>
-                                                <option value="ot2">Option 2</option>
-                                                <option value="ot3">Option 3</option>
+                                                <option value="billing">Payment</option>
+                                                <option value="ot1">Application Status</option>
+                                                <option value="ot2">Processing Stage</option>
+                                                <option value="ot3">Other</option>
                                             </select>
                                            </div>
                                     </div>
@@ -123,7 +123,7 @@ echo "<script>alert('Ticket Genrated');</script>";
                                             <select name="priority" class="form-control select">
                                                 <option value="">Choose your Priority</option>
                                                 <option value="important">Important</option>
-                                                <option value="urgent(functional problem)">Urgent (Functional Problem)</option>
+                                                <option value="urgent">Urgent</option>
                                                 <option value="non-urgent">Non-Urgent</option>
                                                 <option value="question">Question</option>
                                             </select>
