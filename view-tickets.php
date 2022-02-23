@@ -11,7 +11,7 @@ check_login();
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>User | Ticket Support</title>
+<title>User | Cunsult Support</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -51,14 +51,14 @@ check_login();
         <li>
           <p>Home</p> 
         </li>
-        <li><a href="#" class="active">View Ticket</a></li>
+        <li><a href="#" class="active">View Consult</a></li>
       </ul>
       <div class="page-title"> <i class="icon-custom-left"></i>
-        <h3>Ticket Support</h3>
+        <h3>Consult Support</h3>
       </div>
       <div class="clearfix"></div>
       
-      <h4> <span class="semi-bold">Tickets</span></h4>
+      <h4> <span class="semi-bold">Consults</span></h4>
       <br>
      <?php $rt=mysqli_query($con,"select * from ticket where email_id='".$_SESSION['login']."'");
      $num=mysqli_num_rows($rt);
@@ -72,7 +72,7 @@ if($num>0){
           <div class="grid simple no-border">
             <div class="grid-title no-border descriptive clickable">
               <h4 class="semi-bold"><?php echo $row['subject'];?></h4>
-              <p ><span class="text-success bold">Ticket #<?php echo $row['ticket_id'];?></span> - Created on <?php echo $row['posting_date'];?>
+              <p ><span class="text-success bold">Consult #<?php echo $row['ticket_id'];?></span> - Created on <?php echo $row['posting_date'];?>
              <span class="label label-important"><?php echo $row['status'];?></span></p>
               <div class="actions"> <a class="view" href="javascript:;"><i class="fa fa-search"></i></a>  </div>
             </div>
