@@ -117,7 +117,7 @@ $query=mysqli_query($con,"select * from user where email='".$_SESSION['login']."
                                         </div>
                                     </div>
 									   <div class="form-group">
-                                        <label class="col-md-3 col-xs-12 control-label">Contact no </label>
+                                        <label class="col-md-3 col-xs-12 control-label">Mobile No. </label>
                                         <div class="col-md-6 col-xs-12">                                            
                                             <div class="input-group">
                                                 <span class="input-group-addon"><span class="fa fa-pencil"></span></span>
