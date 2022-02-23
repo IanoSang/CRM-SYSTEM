@@ -86,7 +86,7 @@ echo "<script>window.location.href='get-quote.php'</script>";
     <div class="clearfix"></div>
     <div class="content">  
 		<div class="page-title">	
-			<h3>Request a Quote</h3>
+			<h3>Request a Consultation</h3>
      
 	
              <div class="row">
@@ -96,7 +96,7 @@ echo "<script>window.location.href='get-quote.php'</script>";
                             <div class="panel panel-default">
                              
                                 <div class="panel-body">
-                                    <p>Please click below mention services of your interest to receive quotation for the same:</p>
+                                    <p>Please click below mention services of your interest to receive consultation for the same:</p>
                                 </div>
                                 <div class="panel-body">                                                                        
                                     
@@ -136,23 +136,23 @@ while($rw=mysqli_fetch_array($query)){
 <label class="col-md-3 control-label">Service Required :</label>
     <div class="col-md-9">                                                                                                                                        
                                              <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="wdnd" value="Website Design & Development" checked="checked"/> Website Design & Development</label><br>
+                                             <input type="checkbox" class="icheckbox" name="wp" value="Work Permit" checked="checked"/> Work Permit</label><br>
                                              <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="seo" value="SEO (Search Engine Optimization)" />SEO (Search Engine Optimization)	</label><br>
+                                             <input type="checkbox" class="icheckbox" name="sp" value="Special Pass" /> Special Pass</label><br>
                                              <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="swd" value="Static Website Design" /> Static Website Design</label><br>
+                                             <input type="checkbox" class="icheckbox" name="swd" value="Dependent Pass" /> Dependent Pass</label><br>
                                              <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="fwd" value="Flash Website Development" /> Flash Website Development</label><br>
+                                             <input type="checkbox" class="icheckbox" name="fwd" value="Re-Entry" /> Re-Entry</label><br>
                                              <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="whs" value="Web Hosting Services" /> Web Hosting Services</label><br>
+                                             <input type="checkbox" class="icheckbox" name="whs" value="Internship Pass" /> Internship Pass</label><br>
                                              <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="ed"  value="Ecommerce Development"/> Ecommerce Development</label><br>
+                                             <input type="checkbox" class="icheckbox" name="ed"  value="Citizenship"/> Citizenship</label><br>
                                                  <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="opi" value="Online Payment Integration" /> Online Payment Integration</label><br>
+                                             <input type="checkbox" class="icheckbox" name="opi" value="Permanent Residence" /> Permanent Residence</label><br>
                                                  <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="dba" value="Dash board Application" /> Dash board Application</label><br>
+                                             <input type="checkbox" class="icheckbox" name="dba" value="Student/Pupil Pass" /> Student/Pupil Pass</label><br>
                                                  <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="nd" value="NewsLetter Design" /> NewsLetter Design</label>
+                                             <input type="checkbox" class="icheckbox" name="nd" value="Alien Registration" /> Alien Registration</label>
                                                 
                                                   
                                                 </div>
@@ -190,21 +190,21 @@ while($rw=mysqli_fetch_array($query)){
                                                 <label class="col-md-3 control-label"></label>
                                                 <div class="col-md-9">                                                                                                                                        
                                                  <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="cms" value="CMS (Content Management System)" />CMS (Content Management System)</label><br>
+                                             <input type="checkbox" class="icheckbox" name="cms" value="Visa extension" />Visa extension</label><br>
                                              <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="smo" value="SMO (Social Media Optimization)	" />SMO (Social Media Optimization)		</label><br>
+                                             <input type="checkbox" class="icheckbox" name="smo" value="KRA PIN	" /> KRA PIN</label><br>
                                              <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="dwd" value="Dynamic Website Design" /> Dynamic Website Design</label><br>
+                                             <input type="checkbox" class="icheckbox" name="dwd" value="NHIF" /> NHIF</label><br>
                                              <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="dr" value="Domain Registration" /> Domain Registration </label><br>
+                                             <input type="checkbox" class="icheckbox" name="dr" value="NSSF" /> NSSF </label><br>
                                              <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="wm" value="Website Maintenance" /> Website Maintenance</label><br>
+                                             <input type="checkbox" class="icheckbox" name="wm" value="Office and home space" /> Office and home space</label><br>
                                              <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="wta" value="Walk Through Animation" /> Walk Through Animation</label><br>
+                                             <input type="checkbox" class="icheckbox" name="wta" value="Single Journey Visa" /> Single Journey Visa</label><br>
                                                  <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="ld" value="Logo Design" /> Logo Design</label><br>
+                                             <input type="checkbox" class="icheckbox" name="ld" value="Multiple Journey Visa" /> Multiple Journey Visa</label><br>
                                                  <label class="check">
-                                             <input type="checkbox" class="icheckbox" name="osc" value="Open Source Customization" /> Open Source Customization</label><br>
+                                             <input type="checkbox" class="icheckbox" name="osc" value="Airport Meet and Greet" /> Airport Meet and Greet</label><br>
                                                  <label class="check">
                                              <input type="checkbox" class="icheckbox" name="other" value="Others" /> Others </label>
                                                    
