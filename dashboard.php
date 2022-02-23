@@ -51,6 +51,37 @@ include("dbconnection.php");
 		<div class="page-title">	
 			<h3>Dashboard</h3>	
             <div class="row 2col">
+
+                <div class="col-md-3 col-sm-6 spacing-bottom">
+                    <div class="tiles red added-margin">
+                        <div class="tiles-body">
+                            <div class="controller"> <a href="javascript:;" class="reload"></a> <a href="javascript:;" class="remove"></a> </div>
+
+                            <div class="heading">  <span class="fa fa-user"></span>
+                                <a href="profile.php" style="color:#FFF">My Profile</a>
+                            </div>
+                            <div class="progress transparent progress-white progress-small no-radius">
+                                <div class="progress-bar progress-bar-white animate-progress-bar" data-percentage="45%" ></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 spacing-bottom-sm spacing-bottom">
+                    <div class="tiles green added-margin">
+                        <div class="tiles-body">
+                            <div class="controller"> <a href="javascript:;" class="reload"></a> <a href="javascript:;" class="remove"></a> </div>
+
+                            <div class="heading"> <span class="fa fa-ticket"></span>
+                                <a href="get-quote.php" style="color:#FFF">Consult with Us</a>
+                            </div>
+                            <div class="progress transparent progress-small no-radius">
+                                <div class="progress-bar progress-bar-white animate-progress-bar" data-percentage="79%" ></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
           <div class="col-md-3 col-sm-6 spacing-bottom-sm spacing-bottom">
             <div class="tiles blue added-margin">
               <div class="tiles-body">
@@ -58,7 +89,7 @@ include("dbconnection.php");
                 <?php $ret=mysqli_query($con,"select * from ticket where email_id='".$_SESSION['login']."'");
 				$num=mysqli_num_rows($ret);
 				?>
-                <div class="heading"> <span class="animate-number" data-value="<?php echo $num;?>" data-animation-duration="1200">0</span>| <a href="view-tickets.php" style="color:#FFF"> View Tickets </a></div>
+                <div class="heading"> <span class="animate-number" data-value="<?php echo $num;?>" data-animation-duration="1200">0</span>| <a href="view-tickets.php" style="color:#FFF"> View Consults </a></div>
                 
                 <div class="progress transparent progress-small no-radius">
                   <div class="progress-bar progress-bar-white animate-progress-bar" data-percentage="26.8%"></div>
@@ -67,36 +98,7 @@ include("dbconnection.php");
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 spacing-bottom-sm spacing-bottom">
-            <div class="tiles green added-margin">
-              <div class="tiles-body">
-                <div class="controller"> <a href="javascript:;" class="reload"></a> <a href="javascript:;" class="remove"></a> </div>
-               
-                <div class="heading"> <span class="fa fa-ticket"></span>
-                <a href="get-quote.php" style="color:#FFF">Get Quote</a>
-                 </div>
-                <div class="progress transparent progress-small no-radius">
-                  <div class="progress-bar progress-bar-white animate-progress-bar" data-percentage="79%" ></div>
-                </div>
-               
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 spacing-bottom">
-            <div class="tiles red added-margin">
-              <div class="tiles-body">
-                <div class="controller"> <a href="javascript:;" class="reload"></a> <a href="javascript:;" class="remove"></a> </div>
-             
-                <div class="heading">  <span class="fa fa-user"></span>
-                 <a href="profile.php" style="color:#FFF">My Profile</a>
-                 </div>
-                <div class="progress transparent progress-white progress-small no-radius">
-                  <div class="progress-bar progress-bar-white animate-progress-bar" data-percentage="45%" ></div>
-                </div>
-               
-              </div>
-            </div>
-          </div>
+
           <div class="col-md-3 col-sm-6">
             <div class="tiles purple added-margin">
               <div class="tiles-body">
@@ -104,7 +106,7 @@ include("dbconnection.php");
                 
                 <div class="row-fluid">
                   <div class="heading"> <span class="fa fa-ticket"></span>
-                  <a href="create-ticket.php" style="color:#FFF">Create </a>
+                  <a href="create-ticket.php" style="color:#FFF">Request Update </a>
                    </div>
                   <div class="progress transparent progress-white progress-small no-radius">
                     <div class="progress-bar progress-bar-white animate-progress-bar" data-percentage="12%"></div>
