@@ -128,14 +128,14 @@ check_login();
 			<div class="tiles purple m-b-10">
               <div class="tiles-body">
 			  <div class="controller"> <a href="javascript:;" class="reload"></a> <a href="javascript:;" class="remove"></a> </div>
-                <div class="tiles-title text-black">Quote Requests </div>
+                <div class="tiles-title text-black">Consults Requests </div>
 			         <div class="widget-stats">
                       <div class="wrapper transparent"> 
                       <?php
                       $qr=mysqli_query($con,"select * from prequest");
 					  $oq=mysqli_num_rows($qr);
 					  ?>
-						<span class="item-title">Overall Quotes</span> <span class="item-count animate-number semi-bold" data-value="<?php echo $oq?>" data-animation-duration="700">0</span>
+						<span class="item-title">Overall Consults</span> <span class="item-count animate-number semi-bold" data-value="<?php echo $oq?>" data-animation-duration="700">0</span>
 					  </div>
                     </div>
                     <div class="widget-stats">
@@ -144,7 +144,7 @@ check_login();
                       $qr1=mysqli_query($con,"select * from prequest where status='0'");
 					  $oq1=mysqli_num_rows($qr1);
 					  ?>
-						<span class="item-title">New Quotes's</span> <span class="item-count animate-number semi-bold" data-value="<?php echo $oq1;?>" data-animation-duration="700">0</span> 
+						<span class="item-title">New Requests</span> <span class="item-count animate-number semi-bold" data-value="<?php echo $oq1;?>" data-animation-duration="700">0</span>
 					  </div>
                     </div>
                     <div class="widget-stats ">
@@ -170,13 +170,13 @@ check_login();
 			<div class="tiles red m-b-10">
               <div class="tiles-body">
 			  <div class="controller"> <a href="javascript:;" class="reload"></a> <a href="javascript:;" class="remove"></a> </div>
-                <div class="tiles-title text-black">Overall Tickets </div>
+                <div class="tiles-title text-black">Overall Inquiries</div>
 			         <div class="widget-stats">
                       <div class="wrapper transparent"> 
                       <?php $vt=mysqli_query($con,"select * from ticket");
 					  $ovt=mysqli_num_rows($vt);
 					  ?>
-						<span class="item-title">All Tickets</span> <span class="item-count animate-number semi-bold" data-value="<?php echo $ovt;?>" data-animation-duration="700">0</span>
+						<span class="item-title">All Inquiries</span> <span class="item-count animate-number semi-bold" data-value="<?php echo $ovt;?>" data-animation-duration="700">0</span>
 					  </div>
                     </div>
                   
@@ -192,7 +192,7 @@ check_login();
 									
 									
 						
-						<span class="item-title">Pending Tickets</span> <span class="item-count animate-number semi-bold" data-value="<?php echo $otv1;?>" data-animation-duration="700">0</span> <?php									
+						<span class="item-title">Pending Inquiries</span> <span class="item-count animate-number semi-bold" data-value="<?php echo $otv1;?>" data-animation-duration="700">0</span> <?php
 									
 									?>
 					 </div>
