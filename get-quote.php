@@ -31,7 +31,7 @@ if(isset($_POST['submit']))
 	$query=$_POST['query'];
 	$pd=date('Y-m-d');
 mysqli_query($con,"insert into prequest(name,email,contactno,company,wdd,cms,seo,smo,swd,dwd,fwd,dr,whs,wm,ed,wta,opi,ld,da,osc,nd,others,query,posting_date) values('$name','$email','$contact','$company','$wdd','$cms','$seo','$smo','$swd','$dwd','$fwd','$dr','$whs','$wm','$ed','$wta','$opi','$ld','$dba','$osc','$nd','$other','$query','$pd')");
-echo "<script>alert('Query received. We will contact you soon.');</script>";  
+echo "<script>alert('Consultation Request Received. We will contact you soon.');</script>";
 echo "<script>window.location.href='get-quote.php'</script>";
 }
 ?>
@@ -214,7 +214,7 @@ while($rw=mysqli_fetch_array($query)){
                                         </div>
                                         <div style="margin-top:20px;" class="col-md-6">
                                          <div class="form-group">
-                                                <label class="col-md-3 control-label">Query</label>
+                                                <label class="col-md-3 control-label">Message</label>
                                                 <div class="col-md-9 col-xs-12">                                            
                                                     <textarea class="form-control" rows="5" name="query" required></textarea>
                                                 </div>
