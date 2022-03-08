@@ -12,6 +12,10 @@ body {
     color:#656565;
     background: #fff;
 }
+#adminbg{
+    background-image: url("../assets/img/adminbg.png");
+    background-size: cover;
+}
 
 a:active {
     outline:0;
