@@ -9,7 +9,7 @@ check_login();
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>Admin | Manage Quotes</title>
+<title>Admin | Manage Consult Requests</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -50,10 +50,10 @@ check_login();
         <li>
           <p>YOU ARE HERE</p>
         </li>
-        <li><a href="#" class="active">Quotes</a> </li>
+        <li><a href="#" class="active">Consult Requests</a> </li>
       </ul>
       <div class="page-title"> <i class="icon-custom-left"></i>
-        <h3>Manage User Quotes</h3>
+        <h3>Manage User Consult Requests</h3>
       </div>
       <div class="row-fluid">
         <div class="span12">
