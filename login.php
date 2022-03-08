@@ -100,7 +100,7 @@ exit();
         <div class="col-md-5 col-md-offset-1">
           <h2>Login to Bormer CRM</h2>
           <p>
-            <a href="registration.php">Sign up Now!</a> if you do not have a account with Us.</p>
+            <a href="registration.php">Sign up Now!</a> if you do not have an account with Us.</p>
           <br>
 
 		   
