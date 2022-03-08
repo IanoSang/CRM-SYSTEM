@@ -18,7 +18,7 @@ echo '<script>alert("Ticket has been updated.")</script>';
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>User | Ticket Support</title>
+<title>User | Inquiries</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -56,14 +56,14 @@ echo '<script>alert("Ticket has been updated.")</script>';
         <li>
           <p>Home</p> 
         </li>
-        <li><a href="#" class="active">View Ticket</a></li>
+        <li><a href="#" class="active">View Inquiries</a></li>
       </ul>
       <div class="page-title"> <i class="icon-custom-left"></i>
-        <h3>Ticket Support</h3>
+        <h3>User Inquiries</h3>
       </div>
       <div class="clearfix"></div>
       
-      <h4> <span class="semi-bold">Tickets</span></h4>
+      <h4> <span class="semi-bold">Inquiries</span></h4>
       <br>
      <?php $rt=mysqli_query($con,"select * from ticket order by id desc");
 													while($row=mysqli_fetch_array($rt))
