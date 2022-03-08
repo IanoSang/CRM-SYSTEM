@@ -13,11 +13,13 @@
 <link href="css/flexslider.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
 	<title>Bormer Consult Contacts</title>
- 
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    </script>
 
 </head>
 <body>
@@ -114,6 +116,7 @@
 				</ul>
 			</div>
 		</div>
+                    <form id="contact-form">
 								<div class="col-md-6">
 									<h4>Leave a Message</h4>
 									<div class="alert alert-success hidden" id="contactSuccess">
@@ -148,8 +151,7 @@
 										</form>
 									</div>
 								</div>
-
-
+                    </form>
 	</div>
 	</div>
 	</section>
