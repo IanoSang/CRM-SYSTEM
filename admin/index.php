@@ -41,11 +41,11 @@ exit();
 <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
 <link href="assets/css/responsive.css" rel="stylesheet" type="text/css"/>
 <link href="assets/css/custom-icon-set.css" rel="stylesheet" type="text/css"/>
-
+    <link rel="stylesheet" href="adminstyle.css">
 </head>
-<body class="error-body no-top">
+<body class="error-body no-top" id="adminbg">
 <div class="container">
-  <div class="row login-container column-seperation">  
+  <div class="row login-container column-seperation text-center">
         <div class="col-md-5 col-md-offset-1">
           <h2>Sign in to CRM Admin</h2>
          
