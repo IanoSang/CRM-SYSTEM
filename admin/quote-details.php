@@ -16,7 +16,7 @@ if(isset($_POST['remark']))
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
-<title>Admin | Quote Details</title>
+<title>Admin | Consult Details</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -57,11 +57,11 @@ if(isset($_POST['remark']))
         <li>   
 			<p>Home<p>  					 							
         </li>     				 
-        <li><a href="#" class="active">Quote Details </a></li>                    
+        <li><a href="#" class="active">Consult Details </a></li>
     </ul>
    	<div class="page-title">		
 		<i class="icon-custom-left"></i>
-		<h3>Quote Details</h3>	
+		<h3>Consult Details</h3>
 	</div>
  	<?php
     $ret=mysqli_query($con,"select * from prequest where id='".$_GET['id']."'");
@@ -90,7 +90,7 @@ if(isset($_POST['remark']))
 											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $row['email'];?><br>
                                             <strong>Contact no.</strong>:
 											&nbsp;<?php echo $row['contactno'];?><br>
-											<strong>Company</strong>:
+											<strong>Country</strong>:
 											&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $row['company'];?><br>
 										</address>	
                                         <address class="margin-bottom-20 margin-top-10">
