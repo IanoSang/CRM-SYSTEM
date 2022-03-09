@@ -1,9 +1,10 @@
 # CRM-SYSTEM
 Bormer Consult is a Kenyan privately owned company founded in 2018 and headquartered in Nairobi. Bormer Consult assists corporate clients and parties with operations and installation in Kenya. Bormer Consult is established as a consultancy to exclusively provide immigration services. This CRM System enables the company to manage their customers and deliver their consultancy services conveniently and timely.
 ### CRM SYSTEM Layout
-<img width="1440" alt="Screenshot" src="https://github.com/IanoSang/Akan-Names/blob/main/assests/images/akan1.png">
-<img width="1440" alt="Screenshot" src="https://github.com/IanoSang/Akan-Names/blob/main/assests/images/akan2.png">
-<img width="1440" alt="Screenshot" src="https://github.com/IanoSang/Akan-Names/blob/main/assests/images/akan3.png">
+<img width="1440" alt="Screenshot" src="https://github.com/IanoSang/CRM-SYSTEM/blob/main/img/websitepart.png">
+<img width="1440" alt="Screenshot" src="https://github.com/IanoSang/CRM-SYSTEM/blob/main/img/sytemSignUp.png">
+<img width="1440" alt="Screenshot" src="https://github.com/IanoSang/CRM-SYSTEM/blob/main/img/systemLogin.png">
+<img width="1440" alt="Screenshot" src="https://github.com/IanoSang/CRM-SYSTEM/blob/main/img/AdminLogin.png">
 
 ## Table of Content
 + [Description](#description)
